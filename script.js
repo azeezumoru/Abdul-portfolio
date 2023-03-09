@@ -11,17 +11,3 @@ hamgurger.addEventListener('click', () => {
     navMenu.style.display = 'none';
   }
 });
-btnClose.addEventListener('click', () => {
-  if (navMenu.style.display === 'flex') {
-    navMenu.style.display = 'none';
-    btnClose.style.display = 'none';
-  }
-});
-for (let i = 0; i < menuItem.length; i += 1) {
-  menuItem[i].onclick = () => {
-    navMenu.style.display = 'none';
-    btnClose.style.display = 'none';
-    // eslint-disable-next-line no-restricted-globals
-    location.target();
-  };
-}
