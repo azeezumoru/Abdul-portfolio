@@ -104,7 +104,7 @@ p {
 
 .nav-menu li a {
   text-decoration: none;
-  color: #fff; 
+  color: #fff;
   z-index: 500 !important;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -446,13 +446,13 @@ textarea {
     align-items: center;
   }
 
- .desktop {
-  margin-left: 290px;
-  margin-top: 20px;
- }
+  .desktop {
+    margin-left: 290px;
+    margin-top: 20px;
+  }
 
   .hamburger {
-    display: none; 
+    display: none;
   }
 
   a {
@@ -663,7 +663,7 @@ textarea {
 
   .desktop {
     margin-left: 440px;
-   }
+  }
 
   section {
     padding: 0 14.2rem;
@@ -697,5 +697,5 @@ textarea {
 @media screen and (min-width: 1440px) {
   .desktop {
     margin-left: 815px;
-   }
+  }
 }
