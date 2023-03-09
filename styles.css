@@ -24,7 +24,6 @@ html {
 
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-top: 3rem;
 }
@@ -60,6 +59,69 @@ p {
   line-height: 2.4rem;
   color: #344563;
   font-style: normal;
+}
+
+.close {
+  display: none;
+  z-index: 50;
+  position: fixed;
+  top: 50px;
+  right: 40px;
+  color: black;
+}
+
+.closeBtn {
+  width: 22px;
+  color: white;
+  font-size: 30px;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #6070ff;
+  display: block;
+}
+
+.nav-menu {
+  opacity: 0.98;
+  list-style-type: none;
+  position: fixed;
+  background-color: #6070ff;
+  top: 0;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 100px 9px;
+  z-index: 10;
+}
+
+.nav-menu li {
+  padding: 20px 15px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #fff; 
+  z-index: 500 !important;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 12px;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  right: 40px;
+  z-index: 10;
 }
 
 nav > button {
@@ -113,6 +175,7 @@ button:focus {
 .logo {
   height: 19px;
   width: 76px;
+  margin-top: 30px;
   animation-name: rotate;
   animation-duration: 2s;
 }
@@ -120,7 +183,7 @@ button:focus {
 .mobile-menu {
   width: 18px;
   height: 12px;
-  margin-right: 1rem;
+  margin-left: 12rem;
 }
 
 @keyframes rotate {
@@ -370,8 +433,26 @@ textarea {
     padding: 0 7.2rem;
   }
 
+  .logo {
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+  }
+
   header {
-    padding: 2.5rem 8rem 0 8rem;
+    padding: 1rem 8rem 0 8rem;
+    align-items: center;
+  }
+
+ .desktop {
+  margin-left: 290px;
+  margin-top: 20px;
+ }
+
+  .hamburger {
+    display: none; 
   }
 
   a {
@@ -380,6 +461,7 @@ textarea {
   }
 
   header nav > ul > li {
+    display: flex;
     margin-right: 3.2rem;
   }
 
@@ -388,6 +470,7 @@ textarea {
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 2rem;
+    margin-left: 255px;
   }
 
   .canopy-lists > li {
@@ -573,6 +656,15 @@ textarea {
     padding: 2.5rem 15.5rem 0 15.5rem;
   }
 
+  header nav > ul {
+    display: flex;
+    margin-left: 240px;
+  }
+
+  .desktop {
+    margin-left: 440px;
+   }
+
   section {
     padding: 0 14.2rem;
   }
@@ -600,4 +692,10 @@ textarea {
     background-size: contain;
     padding: 14.2rem 3.2rem 12.7rem 3.2rem;
   }
+}
+
+@media screen and (min-width: 1440px) {
+  .desktop {
+    margin-left: 815px;
+   }
 }
