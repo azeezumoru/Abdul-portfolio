@@ -51,10 +51,8 @@ document.querySelectorAll('.btn').forEach((occurence) => {
               
               <div class="canopy">
                 <h6>CANOPY</h6>
-                <li><img src="./images/Counter.svg" alt="dot" /></li>
                 <ul class="canopy-lists">
                 <li>Back End Dev</li>
-                <li><img src="./images/Counter.svg" alt="dot" /></li>
                 <li>2015</li>
                 </ul>
               </div>
@@ -72,9 +70,9 @@ document.querySelectorAll('.btn').forEach((occurence) => {
               <hr>
               <div class="actionBtnPopup">
                 <a class="btn btnPopup" href=${data[id].seeLive} target='blank'>
-                See Live <img class="seeAll" src='./images/work1.png' alt="seeLive"></a>
+                See Live <img class="seeAll" src='./images/Ikon.svg' alt="seeLive"></a>
                 <a class="btn btnPopup" href=${data[id].sourceCode} target='blank'>
-                See Source <img class="seeAll" src='./images/work2.png' alt="githubCode"></a>
+                See Source <img class="seeAll" src='./images/Vecto.svg' alt="githubCode"></a>
               </div>
             </div>
           </div>
