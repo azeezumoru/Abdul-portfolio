@@ -2,7 +2,8 @@ const data = [
   {
     projectTitle: 'Tonic',
     imageURL: './images/work1.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
     technologies: ['HTML', 'CSS', 'JS', 'Ruby'],
     seeLive: 'https://azeezumoru.github.io/Abdul-portfolio/',
     sourceCode: 'https://github.com/azeezumoru/Abdul-portfolio',
@@ -10,7 +11,8 @@ const data = [
   {
     projectTitle: 'Multi-Post Stories',
     imageURL: './images/work2.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
     technologies: ['HTML', 'CSS', 'JS', 'Ruby'],
     seeLive: 'https://azeezumoru.github.io/Abdul-portfolio/',
     sourceCode: 'https://github.com/azeezumoru/Abdul-portfolio',
@@ -18,7 +20,8 @@ const data = [
   {
     projectTitle: 'Tonic',
     imageURL: './images/work3.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
     technologies: ['HTML', 'CSS', 'JS', 'Ruby'],
     seeLive: 'https://azeezumoru.github.io/Abdul-portfolio/',
     sourceCode: 'https://github.com/azeezumoru/Abdul-portfolio',
@@ -26,7 +29,8 @@ const data = [
   {
     projectTitle: 'Multi-Post Stories',
     imageURL: './images/work4.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
     technologies: ['HTML', 'CSS', 'JS', 'Ruby'],
     seeLive: 'https://azeezumoru.github.io/Abdul-portfolio/',
     sourceCode: 'https://github.com/azeezumoru/Abdul-portfolio',
@@ -48,13 +52,10 @@ document.querySelectorAll('.btn').forEach((occurence) => {
                 alt="closeBtn"
                 />
               </div>
-              
               <div class="canopy">
                 <h6>CANOPY</h6>
-                <li><img src="./images/Counter.svg" alt="dot" /></li>
                 <ul class="canopy-lists">
                 <li>Back End Dev</li>
-                <li><img src="./images/Counter.svg" alt="dot" /></li>
                 <li>2015</li>
                 </ul>
               </div>
@@ -71,10 +72,10 @@ document.querySelectorAll('.btn').forEach((occurence) => {
               </ul>
               <hr>
               <div class="actionBtnPopup">
-                <a class="btn btnPopup" href=${data[id].seeLive} target='blank'>
-                See Live <img class="seeAll" src='./images/work1.png' alt="seeLive"></a>
-                <a class="btn btnPopup" href=${data[id].sourceCode} target='blank'>
-                See Source <img class="seeAll" src='./images/work2.png' alt="githubCode"></a>
+                <a class="btnn btnPopup" href=${data[id].seeLive} target='blank'>
+                See Live <img class="seeAll" src='./images/Ikon.svg' alt="seeLive"></a>
+                <a class="btnn btnPopup" href=${data[id].sourceCode} target='blank'>
+                See Source <img class="seeAll" src='./images/Vecto.svg' alt="githubCode"></a>
               </div>
             </div>
           </div>
@@ -88,7 +89,9 @@ document.querySelectorAll('.btn').forEach((occurence) => {
     section.classList.add('hide');
     body.appendChild(section);
     section.classList.add('projectPopup');
-    if (section.classList.contains('hide')) { section.classList.remove('hide'); }
+    if (section.classList.contains('hide')) {
+      section.classList.remove('hide');
+    }
     const hidePopup = document.getElementById(`popupClose${id}`);
     hidePopup.addEventListener('click', () => {
       body.removeChild(section);
