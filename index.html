@@ -6,22 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abdul Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="validate.css">
+  <link rel="stylesheet" href="popup.css">
+  <script src="validate.js" defer></script>
+  <script src="pop.js" defer></script>
 </head>
-<body>
+<body id="body">
   <div class="container">
     <header>  
       <a href=""><img src="images/logo.png" class="logo"></a>
-      <nav>
-        <ul>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li><a href="#portfolio"  class="nav-link">Portfolio</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="close">
+          <img class="closeBtn" src="./images/close-btn.png" alt="close btn">
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <ul class="desktop">
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-        <button><img src="images/Hamburg.png" class="mobile-menu"></button>
       </nav>
+
     </header>
-  
     <main>
       <section class="headline">
         <h1>I’m Abdul <br> Glad to see you!</h1>
@@ -38,11 +56,11 @@
         </ul>
       </section>
 
-      <section class="wrap">
+      <section id="portfolio" class="wrap">
         <section class="work-1">
           <div><img src="images/work1.png"></div>
           <div class="content">
-            <h3>Tonic</h3>
+            <h3 class="comp-title">Tonic</h3>
             <div class="canopy">
               <h6>CANOPY</h6>
               <ul class="canopy-lists">
@@ -50,20 +68,22 @@
                 <li>2015</li>
               </ul>
             </div>
+            <div class="project-desc">
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            </div>
             <ul class="categories">
-              <li>html</li>
-              <li>css</li>
-              <li>javaScript</li>
+              <li class="tag">html</li>
+              <li class="tag">css</li>
+              <li class="tag">javaScript</li>
             </ul>
-            <button>See Project</button>
+            <button class="btn" id="0">See Project</button>
           </div>
         </section>
 
         <section class="work-2">
           <div><img src="images/work2.png"></div>
           <div class="content">
-            <h3>Multi-Post Stories</h3>
+            <h3 class="comp-title">Multi-Post Stories</h3>
             <div class="canopy">
               <h6>CANOPY</h6>
               <ul class="canopy-lists">
@@ -71,20 +91,22 @@
                 <li>2015</li>
               </ul>
             </div>
+            <div class="project-desc">
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            </div>
             <ul class="categories">
-              <li>html</li>
-              <li>css</li>
-              <li>javaScript</li>
+              <li class="tag">html</li>
+              <li class="tag">css</li>
+              <li class="tag">javaScript</li>
             </ul>
-            <button>See Project</button>
+            <button class="btn" id="1">See Project</button>
           </div>
         </section>
 
         <section class="work-3">
           <div><img src="images/work3.png"></div>
           <div class="content">
-            <h3>Tonic</h3>
+            <h3 class="comp-title">Tonic</h3>
             <div class="canopy">
               <h6>CANOPY</h6>
               <ul class="canopy-lists">
@@ -92,13 +114,15 @@
                 <li>2015</li>
               </ul>
             </div>
+            <div class="project-desc">
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            </div>
             <ul class="categories">
-              <li>html</li>
-              <li>css</li>
-              <li>javaScript</li>
+              <li class="tag">html</li>
+              <li class="tag">css</li>
+              <li class="tag">javaScript</li>
             </ul>
-            <button>See Project</button>   
+            <button class="btn" id="2">See Project</button>   
           </div>
           
         </section>
@@ -106,7 +130,7 @@
         <section class="work-4">
           <div><img src="images/work4.png"></div>
           <div class="content">
-            <h3>Multi-Post Stories</h3>
+            <h3 class="comp-title">Multi-Post Stories</h3>
             <div class="canopy">
               <h6>CANOPY</h6>
               <ul class="canopy-lists">
@@ -114,18 +138,20 @@
                 <li>2015</li>
               </ul>
             </div>
+            <div class="project-desc">
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            </div>
             <ul class="categories">
-              <li>html</li>
-              <li>css</li>
-              <li>javaScript</li>
+              <li class="tag">html</li>
+              <li class="tag">css</li>
+              <li class="tag">javaScript</li>
             </ul>
-            <button>See Project</button>
+            <button class="btn" id="3">See Project</button>
           </div>
         </section>
       </section>
 
-      <section class="about">
+      <section id="about" class="about">
         <div>
           <h2>About <br> Myself</h2>
           <p class="about-bio">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -154,11 +180,11 @@
         </div>
       </section>
 
-      <section class="contact">
+      <section id="contact" class="contact">
         <div>
           <h2>Contact me</h2>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
-        <form action="https://formspree.io/f/xlevolgp" method="post">
+        <form action="https://formspree.io/f/xlevolgp" method="post" id="signup">
           <ul>
             <li>
               <label for="name">Full name</label>
@@ -168,6 +194,7 @@
               <label for="email">Email</label>
               <input type="email" id="email" name="user_email" placeholder="Enter your Email" required />
             </li>
+            <p id="errorMsg"></p>
             <li>
               <label for="msg">Message</label>
               <textarea id="msg" name="user_message" placeholder="Write your message here" maxlength="500" required></textarea>
@@ -181,5 +208,7 @@
       </section>
     </main>
   </div>
+  <script src="script.js"></script>
+  <script src="pop.js"></script>
 </body>
 </html>
