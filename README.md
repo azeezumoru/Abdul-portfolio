@@ -123,6 +123,10 @@ https://azeezumoru.github.io/Abdul-portfolio/
 - Twitter: [@azeez_umoru](https://twitter.com/azeez_umoru)
 - LinkedIn: [LinkedIn](linkedin.com/in/umoru-abdul-azeez-527921194)
 
+👤 **Author2**
+- GitHub: [@atifzada](https://github.com/Atifzada)
+- Twitter: [@atifzada](https://twitter.com/atifzada04)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
