@@ -35,4 +35,17 @@ formSubmit.addEventListener('input', () => {
     message: inputTextArea.value,
   };
   if (formData) {
-    localStorage.setItem('contactForm', JSON.stringify(
+    localStorage.setItem('contactForm', JSON.stringify(formData));
+  }
+});
+const storedData = localStorage.getItem('contactForm');
+
+if (storedData) {
+  const formObj = JSON.parse(storedData);
+  inputName.value = formObj.name;
+  inputEmail.value = formObj.email;
+  inputTextArea.value = formObj.message;
+}
+Rest.addEventListener('click', () => {
+  localStorage.removeItem('contactForm');
+});
