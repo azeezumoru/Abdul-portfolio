@@ -83,6 +83,27 @@
   gap: 10px;
 }
 
+.btnn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 7px 0;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: #396df2;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 768px) {
   .project1 {
     background-color: #fff;
@@ -105,7 +126,7 @@
 
   .projectImage {
     display: flex;
-    height: 70%;
+    height: 50%;
     object-fit: cover;
   }
 
@@ -120,7 +141,7 @@
     display: flex;
     flex-direction: column;
     width: 40%;
-    gap: 15px;
+    gap: 0;
   }
 
   .popupDesc {
@@ -137,6 +158,28 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .btnn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 7px 0;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #396df2;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
   }
 }
