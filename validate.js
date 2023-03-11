@@ -3,7 +3,7 @@ const showMessage = (message) => {
   msg.innerText = message;
 };
 const validateEmail = (input) => {
-  const emailRegex = /^[a-z0-9]+@[^\s]+\.[^\s]+$/g;
+  const emailRegex = /^[a-z0-9]+@[^\s]+\.[a-z]{2,}$/g;
   const email = input.value.trim();
   if (emailRegex.test(email)) {
     return true;
