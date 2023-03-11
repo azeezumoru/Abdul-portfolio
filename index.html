@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="popup.css">
 </head>
-<body>
+<body id="body">
   <div class="container">
     <header>  
       <a href=""><img src="images/logo.png" class="logo"></a>
@@ -179,7 +179,7 @@
         <div>
           <h2>Contact me</h2>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
-        <form action="https://formspree.io/f/xlevolgp" method="post">
+        <form action="https://formspree.io/f/xlevolgp" method="post" id="signup">
           <ul>
             <li>
               <label for="name">Full name</label>
@@ -189,6 +189,7 @@
               <label for="email">Email</label>
               <input type="email" id="email" name="user_email" placeholder="Enter your Email" required />
             </li>
+            <p id="errorMsg"></p>
             <li>
               <label for="msg">Message</label>
               <textarea id="msg" name="user_message" placeholder="Write your message here" maxlength="500" required></textarea>
